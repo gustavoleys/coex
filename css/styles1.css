@@ -29,6 +29,16 @@
     grid-template-rows: 150px 600px 300px;
     grid-template-columns: 100%;
 }
+#bodynosotros{
+    display: grid;
+    grid-template-rows: 150px 600px 300px;
+    grid-template-columns: 100%;
+}
+#bodyservicios{
+    display: grid;
+    grid-template-rows: 150px 600px 300px;
+    grid-template-columns: 100%;
+}
 header{
     grid-row: 1/2;
     grid-column: 1/2;
@@ -224,7 +234,7 @@ justify-self:unset;
     justify-self: end;
 }
 .ubifooter4{
-    grid-column: 10/12;
+    grid-column: 9/13;
     grid-row: 1/2;
   justify-self: start;
   align-self: center;
@@ -255,6 +265,7 @@ justify-self:unset;
 }
 .imgubi{
 height: 100%;
+cursor: pointer;
 }
 .titubi{
     font-family:'amaticsc';
@@ -486,7 +497,7 @@ form div textarea::placeholder{
     max-width: 800px;
     max-height: 150px;
     margin: 30px;
-    margin-left: 20%;
+    margin-left: 10%;
     background-color: rgba(0, 0, 0, 0.800);
     padding: 50px 30px 20px 30px;
     box-shadow: 10px 6px 6px 2px rgba(128, 128, 128, 0.5);
@@ -556,7 +567,557 @@ form div textarea::placeholder{
 }
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (min-width: 599px) and (max-width:999px) {
+    
+    #bodyindex{
+        display: grid;
+        grid-template-rows: 150px 1500px 350px;
+        grid-template-columns: 100%;
+    }
+    #bodyclientes{
+        display: grid;
+        grid-template-rows: 150px 1200px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodycontact{
+        display: grid;
+        grid-template-rows: 150px 800px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodyrrhh{
+        display: grid;
+        grid-template-rows: 150px 600px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodynosotros{
+        display: grid;
+        grid-template-rows: 150px 600px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodyservicios{
+        display: grid;
+        grid-template-rows: 150px 600px 300px;
+        grid-template-columns: 100%;
+    }
+    header{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        background-color:  rgba(0, 0, 0, 0.800);
+    }
+    main{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        background-color: white;
+    }
+    footer{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        background-color: rgba(0, 0, 0, 0.800);
+    }
+    #gridheader{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 48% 48%;
+        gap: 4%;
+    }
+    .logo{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        justify-self: start;
+    }
+    .imglogo{
+        width:auto;
+        height:80%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .menu{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin: 10% 10% 0 0;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .link1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .link2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .link3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .link4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .link5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .link6{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    a:hover{
+        color: yellow;
+    }
+    .textmenu {
+        text-decoration: none;
+        color: rgb(145, 146, 148);
+        font-family:'Calibri';
+        font-weight: bold;
+        text-align: center;
+      }
+    #main-index{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 20% 70%;
+        row-gap: 0.5%;
+    }
+    .index-main-div-img1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    justify-self:unset;
+    }
+    .imgmainindex{
+        width: 100%;
+        height: 100%;
+    }
+    .index-div-servi{
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    #index-servi-grid{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 49% 49%;
+        justify-content: center;
+        column-gap: 0.5%;
+        row-gap: 0.5%;
+    }
+    .serv-items1{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        background-color:  rgba(0, 0, 0, 0.800);
+    }
+    .servitems2{
+        grid-column: 7/13;
+        grid-row: 1/2;
+        background-color:  rgba(0, 0, 0, 0.800);
+    }
+    .servitems3{
+        grid-column: 1/7;
+        grid-row: 2/3;
+        background-color:  rgba(0, 0, 0, 0.800);
+    }
+    .servitems4{
+        grid-column: 7/13;
+        grid-row: 2/3;
+        background-color: rgba(0, 0, 0, 0.800);
+    }
+    .serv-items-div-img{
+        width: 100%;
+        height: 60%;
+    }
+    .serv-items-div-h3{
+        width: 100%;
+        height: 7%;
+    }
+    .serv-items-div-p{
+        width: 100%;
+        height: 20%;
+    }
+    .div-link-ser{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        justify-self: center;
+        }
+    .img-ser{
+        margin: 2.5% 5% 0 5%;
+        max-width: 100%;
+        max-height: 100%;
+        text-align: center;
+        width: 90%;
+        height: 90%;
+    }
+    .h3-ser{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: beba;
+        margin: 1%;
+        color: antiquewhite;
+    }
+    .p-ser{
+        text-align: center;
+        font-size: 18px;
+        font-family: beba;
+        margin: 1%;
+        color: antiquewhite;
+    }
+    .linkser{
+        text-decoration: none;
+        color: rgb(145, 146, 148);
+        font-family:'Calibri';
+        font-weight: bold;
+        font-size: 18px;
+    }
+    #gridfooter{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 20% 13% 13% 13% 13% 13% 13%;
+    }
+    .divimgfooter{
+        grid-column: 1/5;
+        grid-row: 1/4;
+    }
+    .imgfooter{
+        width: 100%;
+        margin: 5% 10%;
+    }
+    .ubifooter1{
+        grid-column: 7/8;
+        grid-row: 2/3;
+        justify-self: end;
+    }
+    .ubifooter2{
+        grid-column: 7/8;
+        grid-row: 4/5;
+        justify-self: end;
+    }
+    .ubifooter3{
+        grid-column: 7/8;
+        grid-row: 5/8;
+        justify-self: end;
+    }
+    .ubifooter4{
+        grid-column: 7/13;
+        grid-row: 1/2;
+      justify-self: start;
+      align-self: center;
+    }
+    .ubifooter5{
+        grid-column: 8/13;
+        grid-row: 2/3;
+        justify-self: start;
+        align-self: center;
+    }
+    .ubifooter6{
+        grid-column: 8/13;
+        grid-row: 3/4;
+        justify-self: start;
+        align-self: center;
+    }
+    .ubifooter7{
+        grid-column: 8/13;
+        grid-row: 4/5;
+        justify-self: start;
+        align-self: center;
+    }
+    .ubifooter8{
+        grid-column: 8/13;
+        grid-row: 5/6;
+        justify-self: start;
+        align-self: center;
+    }
+    .imgubi{
+    width: 100%;
+    cursor: pointer;
+ 
+    }
+    .titubi{
+        font-family:'amaticsc';
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: left;
+        color: antiquewhite;
+        text-align: start;
+    }
+    .textubi{
+        font-family:'amaticsc';
+        font-size:23px;
+        color: antiquewhite;
+        text-align: left;
+    }
+    .h1{
+        margin: 5% 0 0 7%;
+        font-family: 'amaticsc';
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .confianennos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        max-width: 999px;
+        max-height: 150px;
+        background-color: white;
+        margin: 5% 0 0 0;
+    }
+    .divimgclientes{
+        height: 100%;
+        width: 30%;
+        text-align: center;
+        text-justify: center;
+        position: relative;
+        margin: 5%;
+    }
+    .clientesanimation1{
+        animation-name: clientes;
+        animation-duration: 0.5s;
+        animation-direction:normal;  
+    }
+    .clientesanimation2{
+        animation-name: clientes;
+        animation-duration: 1s;
+        animation-direction:normal;  
+    }
+    .clientesanimation3{
+        animation-name: clientes;
+        animation-duration: 1.5s;
+        animation-direction:normal;  
+    }
+    .clientesanimation4{
+        animation-name: clientes;
+        animation-duration: 2s;
+        animation-direction:normal;  
+    }
+    .clientesanimation5{
+        animation-name: clientes;
+        animation-duration: 2.5s;
+        animation-direction:normal;  
+    }
+    .clientesanimation6{
+        animation-name: clientes;
+        animation-duration: 3s;
+        animation-direction:normal;  
+    }
+    .clientesanimation7{
+        animation-name: clientes;
+        animation-duration: 3.5s;
+        animation-direction:normal;  
+    }
+    .clientesanimation8{
+        animation-name: clientes;
+        animation-duration: 4s;
+        animation-direction:normal;  
+    }
+    @keyframes clientes {
+        0%  {left:750px}
+        25% {left:500px}
+        50% {left:-500px}
+        75% {left:-250px}
+        100% {left:0px}
+      }
+    .imgclientes{
+        align-items: center;
+        text-justify: center;
+    }
+    #div-form{
+        height: 100%;
+        width: 80%;
+        max-width: 600px;
+        max-height: 350px;
+        margin: 10% 5% 5% 10%;
+        background-color: rgba(0, 0, 0, 0.800);
+        padding: 7% 5% 0 5%;
+        box-shadow: 10px 6px 6px 2px rgba(128, 128, 128, 0.5);
+        border-radius: 10px;
+        text-align: center;
+    }    
+    .formulario{
+        display: grid;
+        grid-template-columns: 28.5% 68.5% ;
+        grid-template-rows: repeat(4, 1fr) 30% 20%;
+        gap: 3%;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-label-name{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+    }
+    .div-form-input-name{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-label-empresa{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-input-empresa{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-label-mail{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-input-mail{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-label-phone{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-input-phone{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-input-msj{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        width: 100%;
+        height: 100%;
+    }
+    .div-button-enviar{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        width: 100%;
+        height: 100%;
+    }
+    form div label{
+        font-family: 'amaticsc';
+        color: antiquewhite;
+        font-size: 20px;
+        font-weight:bold;
+    }
+    form div input{
+        width: 100%;
+        height: 80%;
+        border-radius: 5px;
+    }
+    .button-contact{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        justify-items: end;
+        width: 80%;
+        font-family: 'amaticsc';
+        color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0.800);
+        font-size: 23px;
+        margin: 5%;
+        border-radius: 5px;
+        box-shadow: 2px 6px 6px 1px rgba(128, 128, 128, 0.24);
+        cursor: pointer;
+    }
+    form div textarea{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    form div textarea::placeholder{
+        font-family: 'amaticsc';
+        text-align: center;
+        font-size: 23px;
+    
+    }
+    #div-form-rrhh{
+        height: 25%;
+        width: 70%;
+        max-width: 800px;
+        max-height: 150px;
+        margin: 10% 5% 5% 5%;
+        background-color: rgba(0, 0, 0, 0.800);
+        padding: 50px 30px 20px 30px;
+        box-shadow: 10px 6px 6px 2px rgba(128, 128, 128, 0.5);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .formulario-rrhh{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3%;
+        width: 100%;
+        height: 100%;
+    }
+    .div-form-label-cv{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .div-form-input-cv{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .file-cv{
+        font-family: 'amaticsc';
+        color: antiquewhite;
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+        margin-top: 2%;
+        cursor: pointer;
+    }
+    .label-rrhh{
+        font-family: 'amaticsc';
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight:bold;
+        position: relative;
+    }
+    .div-button-rrhh{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .button-rrhh{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        font-family: 'amaticsc';
+        color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0.800);
+        font-size: 20px;
+        margin: 5%;
+        border-radius: 5px;
+        box-shadow: 2px 6px 6px 1px rgba(128, 128, 128, 0.24);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 599px) {
     
     #bodyindex{
         display: grid;
@@ -565,7 +1126,7 @@ form div textarea::placeholder{
     }
     #bodyclientes{
         display: grid;
-        grid-template-rows: 150px 800px 300px;
+        grid-template-rows: 150px 900px 300px;
         grid-template-columns: 100%;
     }
     #bodycontact{
@@ -574,6 +1135,16 @@ form div textarea::placeholder{
         grid-template-columns: 100%;
     }
     #bodyrrhh{
+        display: grid;
+        grid-template-rows: 150px 600px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodynosotros{
+        display: grid;
+        grid-template-rows: 150px 600px 300px;
+        grid-template-columns: 100%;
+    }
+    #bodyservicios{
         display: grid;
         grid-template-rows: 150px 600px 300px;
         grid-template-columns: 100%;
@@ -756,7 +1327,7 @@ form div textarea::placeholder{
         grid-template-rows: 20% 13% 13% 13% 13% 13% 13%;
     }
     .divimgfooter{
-        grid-column: 1/5;
+        grid-column: 1/4;
         grid-row: 1/2;
     }
     .imgfooter{
@@ -814,6 +1385,7 @@ form div textarea::placeholder{
     }
     .imgubi{
     width: 100%;
+    cursor: pointer;
  
     }
     .titubi{
@@ -833,25 +1405,28 @@ form div textarea::placeholder{
     .h1{
         margin: 5% 0 0 7%;
         font-family: 'amaticsc';
-        font-size: 74px;
+        font-size: 30px;
         font-weight: bold;
     }
     .confianennos{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center ;
-        height: 600px;
+        justify-content: center;
+        height: 100%;
         width: 100%;
+        max-width: 500px;
+        max-height: 150px;
         background-color: white;
         margin: 5% 0 0 0;
     }
     .divimgclientes{
-        height: 100px;
-        width: 20%;
-        align-items: center;
-        margin: 2%;
+        height: 100%;
+        width: 40%;
+        text-align: center;
+        text-justify: center;
         position: relative;
+        margin: 5%;
     }
     .clientesanimation1{
         animation-name: clientes;
@@ -901,25 +1476,25 @@ form div textarea::placeholder{
         100% {left:0px}
       }
     .imgclientes{
-    align-items: center;
+        align-items: center;
+    text-justify: center;
     }
     #div-form{
-        height: 250px;
-        width: 600px;
-        max-width: 600px;
-        max-height: 250px;
-        margin: 30px;
-        margin-left: 20%;
+        height: 100%;
+        width: 80%;
+        max-width: 500px;
+        max-height: 350px;
+        margin: 10% 5% 5% 5%;
         background-color: rgba(0, 0, 0, 0.800);
-        padding: 50px 30px 20px 30px;
+        padding: 7% 5% 0 5%;
         box-shadow: 10px 6px 6px 2px rgba(128, 128, 128, 0.5);
         border-radius: 10px;
         text-align: center;
     }    
     .formulario{
         display: grid;
-        grid-template-columns: 18% 37% 37% ;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 28.5% 68.5% ;
+        grid-template-rows: repeat(4, 1fr) 30% 20%;
         gap: 3%;
         width: 100%;
         height: 100%;
@@ -972,14 +1547,14 @@ form div textarea::placeholder{
         height: 100%;
     }
     .div-form-input-msj{
-        grid-column: 3/4;
-        grid-row: 1/5;
+        grid-column: 2/3;
+        grid-row: 5/6;
         width: 100%;
         height: 100%;
     }
     .div-button-enviar{
-        grid-column: 3/4;
-        grid-row: 5/6;
+        grid-column: 2/3;
+        grid-row: 6/7;
         width: 100%;
         height: 100%;
     }
@@ -1020,12 +1595,11 @@ form div textarea::placeholder{
     
     }
     #div-form-rrhh{
-        height: 150px;
-        width: 800px;
-        max-width: 800px;
+        height: 25%;
+        width: 70%;
+        max-width: 300px;
         max-height: 150px;
-        margin: 30px;
-        margin-left: 20%;
+        margin: 25% 5% 5% 5%;
         background-color: rgba(0, 0, 0, 0.800);
         padding: 50px 30px 20px 30px;
         box-shadow: 10px 6px 6px 2px rgba(128, 128, 128, 0.5);
@@ -1034,8 +1608,8 @@ form div textarea::placeholder{
     }
     .formulario-rrhh{
         display: grid;
-        grid-template-columns: 32%  62%;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 1fr);
         gap: 3%;
         width: 100%;
         height: 100%;
@@ -1049,8 +1623,8 @@ form div textarea::placeholder{
         align-content: center;
     }
     .div-form-input-cv{
-        grid-column: 2/3;
-        grid-row: 1/2;
+        grid-column: 1/2;
+        grid-row: 2/3;
         width: 100%;
         height: 100%;
         display: flex;
@@ -1060,7 +1634,7 @@ form div textarea::placeholder{
     .file-cv{
         font-family: 'amaticsc';
         color: antiquewhite;
-        font-size: 35px;
+        font-size: 20px;
         position: relative;
         margin-top: 2%;
         cursor: pointer;
@@ -1068,26 +1642,27 @@ form div textarea::placeholder{
     .label-rrhh{
         font-family: 'amaticsc';
         color: antiquewhite;
-        font-size: 50px;
+        font-size: 30px;
         font-weight:bold;
         position: relative;
     }
     .div-button-rrhh{
-        grid-column: 2/3;
-        grid-row: 2/3;
+        grid-column: 1/2;
+        grid-row: 3/4;
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: end;
-        align-content: end;
+        justify-content: center;
+        align-content: center;
     }
     .button-rrhh{
         position: relative;
         width: 50%;
+        height: 50%;
         font-family: 'amaticsc';
         color: antiquewhite;
         background-color: rgba(0, 0, 0, 0.800);
-        font-size: 23px;
+        font-size: 20px;
         margin: 5%;
         border-radius: 5px;
         box-shadow: 2px 6px 6px 1px rgba(128, 128, 128, 0.24);
