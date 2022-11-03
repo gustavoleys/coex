@@ -1,0 +1,32 @@
+.style-nav-bar{
+    background-color: $color-principal;
+    position:fixed; top:0;
+    width: 100%;
+    z-index: 2;
+    color: $color-fonts-titulos;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28145, 146, 148, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+    .img-logo{
+    height: $height-navbar-logo;
+    width: auto;
+    margin: 0% 0% 0% 10% ;
+    position: relative;
+    bottom: 28%;
+}
+.text-nav-bar{
+    color:$color-btn;
+    font-family: $font-navbar;
+    font-weight: bold;
+    align-items: center;
+    font-size: large;
+        &:hover{
+            color: $color-hover-mouse;
+        }
+}
+.alinear{
+    justify-content: end;
+    align-self: center;
+    margin-right: 10%;
+}

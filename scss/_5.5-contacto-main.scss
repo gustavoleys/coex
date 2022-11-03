@@ -1,0 +1,27 @@
+
+
+.img-fondo-formulario{
+    height: 70%;
+    width: 80%;
+    margin: 5%;
+    padding: 10%;
+    padding-left: 15%;
+    background-image: url(../images/piping.png);
+}
+.div-form-label{
+    @include formulario;
+    justify-content: end;
+}
+.div-form-input{
+    @include formulario;
+}
+.div-form-input-msj{
+    @include formulario;
+}
+.div-button-enviar{
+    display: flex;
+    justify-content: end;
+    padding: 2%;
+}
+
+

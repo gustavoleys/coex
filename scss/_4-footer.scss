@@ -1,0 +1,40 @@
+footer{
+    background-color: $color-principal;
+    padding-top: 2%;
+}
+.div-logo-footer{
+    display: flex;
+}
+.logo-footer{
+    width: 80%;
+    max-width: 200px;
+}
+.div-img-footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.div-p-footer{
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+.div-p-footer-ubi{
+display: flex;
+justify-content: start;
+align-items: center; 
+}
+.img-footer{
+    width: auto;
+    height: 100%;
+        &:hover{
+            transform: scale(0.75);
+            }
+}
+.reservados{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,46 @@
+
+.index-serv-row{
+    text-align: center;
+    justify-items: center;
+}
+.index-serv-col{
+    background-color: $color-principal;
+    border-color: $border-colors;
+}
+.div-tit-ser{
+    margin: 2% 0;
+}
+.img-ser{
+    margin: 5% 0 0 0;
+    width: 100%;
+    padding: 30%;
+}
+.boton-link{
+    text-decoration: none;
+    color: $color-btn;
+    font-family: $font-family-btn;
+    font-weight: bold;
+    font-size: large;
+}
+.boton-link:hover{
+    color: $color-hover-mouse;
+    margin: 2%;
+}
+.col-index-nosotros{
+    padding: 3% 10%;
+    text-align: center;
+}
+.h3-index-nosotros{
+margin: 5%;
+}
+.row-clientes{
+    background-color: white;
+    padding: 5% 10%;
+}
+.col-clientes{
+    text-align: center;
+    text-justify: center;
+}
+.img-clientes{
+    margin: 10% 20%;
+}

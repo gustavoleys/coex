@@ -1,0 +1,19 @@
+
+
+
+@for $i from 1 through 8 {
+        .clientesanimation#{$i} {
+        position: relative;
+        animation-name: clientes;
+        animation-duration: (($i*0.5)+s);
+        animation-direction:normal;  
+        }
+}
+
+@keyframes clientes {
+        0%  {left:750px}
+        25% {left:500px}
+        50% {left:-500px}
+        75% {left:-250px}
+        100% {left:0px}
+}

@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(217, 255, 0, 0.664);
+}
+h1{
+    color: $color-fonts-titulos;
+    font-family: $font-family-h1;
+    font-weight: bold;
+    text-align: center;
+    font-size: $font-size-h1;
+}
+h3{
+@extend h1;
+    font-size: $font-size-h3;
+}
+.p-white{
+    margin: 0;
+    font-weight:2;
+    text-align:justify;
+    font-size: $font-size-p;
+    color: $color-fonts-parrafos-blancos;
+}
+.p-black{
+    @extend .p-white;
+    color: $color-fons-parrafos-negros;
+}
+.div-titulo{
+    margin: 2%;
+}
+.img-pages{
+    width: 100%;
+}
+.label{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    color: $color-fonts-parrafos-blancos; 
+}
+.input{
+    width: 100%;
+    border-radius: 15px;
+}
+.textarea{
+    width: 100%;
+    border-radius: 15px;
+}
+.button{
+    width: 30%;
+    font-size: 150%;
+    font-weight:lighter;
+    color: $color-btn;
+    padding: 1%;
+    border: 1px solid $color-btn;
+    background-color: black;
+    &:hover {
+        border: 1px solid $color-btn;
+        background-color: $color-hover-mouse;
+        box-shadow: 0 0 5px black, 0 0 10px black;
+        }
+}
+.row-cv{
+    align-items: center;
+    justify-items: center;
+}
+.col-link-cv{
+    text-align: center;
+    text-justify: center;
+}
+.div-link-cv{
+    margin: 5%;
+    padding: 3%;
+    border: 1px solid $color-btn;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    &:hover {
+        border: 1px solid $color-btn;
+        background-color: $color-hover-mouse;
+        text-decoration-color: black;
+        box-shadow: 0 0 5px black, 0 0 10px black;
+    }
+}
+.link-cv{
+    font-size: 100%;
+    font-weight:lighter;
+    text-decoration: none;
+    color: $color-btn;
+    &:hover {
+        color: black;
+    }
+}

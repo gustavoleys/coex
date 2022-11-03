@@ -1,0 +1,22 @@
+
+.formulario-rrhh{
+    background-color: $color-principal;
+    margin: 2%;
+}
+.div-form-label-rrhh{
+    @include formulario;
+    justify-content: start;
+}
+
+.label-rrhh{
+font-size: 30px;
+margin-top: 2%;
+margin-left: 5%;
+}
+.div-form-input{
+    @include formulario;
+    justify-content: center;
+}
+.file-cv{
+    color: $color-fonts-parrafos-blancos;
+}

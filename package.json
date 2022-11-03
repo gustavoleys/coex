@@ -1,0 +1,23 @@
+{
+  "name": "coex3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoleys/coex.git"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoleys/coex/issues"
+  },
+  "homepage": "https://github.com/gustavoleys/coex#readme"
+}

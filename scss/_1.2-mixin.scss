@@ -1,0 +1,17 @@
+@mixin formulario{
+    display: flex;
+    margin-top: 0.5%;
+}
+@mixin row-clientes{
+    background-color: white;
+    padding: 5% 10%;
+}
+@mixin div-nostros($fondo, $padding) {
+    display: flex;
+    flex-direction: column;
+    padding: $padding;
+    background-color: $fondo;
+    margin: 1% 0;
+    justify-content: center;
+    align-items: center;
+}
