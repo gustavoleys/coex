@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(217, 255, 0, 0.664);
+  background-color: rgba(255, 217, 0, 0.664);
 }
 
 h1, h3 {
@@ -7,11 +7,14 @@ h1, h3 {
   font-family: "Calibri";
   font-weight: bold;
   text-align: center;
-  font-size: 45px;
+  font-size: 60px;
+  margin: 1%;
 }
 
 h3 {
+  font-family: "Calibri";
   font-size: 25px;
+  margin: 2%;
 }
 
 .p-white, .p-black {
@@ -225,10 +228,6 @@ footer {
   text-align: center;
 }
 
-.h3-index-nosotros {
-  margin: 5%;
-}
-
 .row-clientes {
   background-color: white;
   padding: 5% 10%;
@@ -241,11 +240,6 @@ footer {
 
 .img-clientes {
   margin: 10% 20%;
-}
-
-.h1-nosotros {
-  font-size: 60px;
-  margin: 2%;
 }
 
 .col-nosotros {
@@ -279,21 +273,8 @@ footer {
   margin: 2% 0;
 }
 
-.h3-nosotros {
-  font-size: 40px;
-}
-
 .p-nosotros {
   font-size: 20px;
-}
-
-.row-servicios {
-  padding: 5%;
-}
-
-.h1-servicios {
-  font-size: 60px;
-  margin: 2%;
 }
 
 .col-servicios {
@@ -325,10 +306,6 @@ footer {
   width: 30%;
   height: auto;
   margin: 2% 0;
-}
-
-.h3-servicios {
-  font-size: 40px;
 }
 
 .p-servicios {

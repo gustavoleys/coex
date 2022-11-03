@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(217, 255, 0, 0.664);
+    background-color: $color-fondo-body;
 }
 h1{
     color: $color-fonts-titulos;
@@ -7,10 +7,13 @@ h1{
     font-weight: bold;
     text-align: center;
     font-size: $font-size-h1;
+    margin:$margin-h1;
 }
 h3{
 @extend h1;
+    font-family: $font-family-h3;
     font-size: $font-size-h3;
+    margin:$margin-h3;
 }
 .p-white{
     margin: 0;
@@ -37,11 +40,11 @@ h3{
 }
 .input{
     width: 100%;
-    border-radius: 15px;
+    border-radius: $border-radius;
 }
 .textarea{
     width: 100%;
-    border-radius: 15px;
+    border-radius: $border-radius;
 }
 .button{
     width: 30%;

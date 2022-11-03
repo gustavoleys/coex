@@ -1,7 +1,3 @@
-.h1-nosotros{
-    font-size: 60px;
-    margin: 2%;
-}
 .col-nosotros{
     @include div-nostros($color-principal,5%)
 }
@@ -16,9 +12,6 @@ height: 100%;
     width: 30%;
     height: auto;
     margin: 2% 0;
-}
-.h3-nosotros{
-    font-size: 40px;
 }
 .p-nosotros{
     font-size: 20px;
