@@ -1,5 +1,5 @@
 $color-principal: rgba(0, 0, 0, 0.8);
-$color-fondo-body: rgba(255, 217, 0, 0.664);
+$color-fondo-body: rgba(255, 255, 0, 0.5);
 $color-fondo-blanco: white;
 $color-fonts-titulos: rgb(76, 91, 122);
 $color-fonts-parrafos-blancos: rgb(255, 255, 255);
@@ -9,8 +9,7 @@ $color-btn:rgb(163, 163, 165);
 $color-hover-mouse: yellow;
 
 $border-colors: yellow;
-$border-radius: 15px;
-
+$border-radius: 5px;
 
 $font-size-h1: 60px;
 $margin-h1:1%;
@@ -18,6 +17,11 @@ $margin-h3:2%;
 $font-size-h3: 25px;
 $font-size-p: 15px;
 
+$font-size-h1-pantchica: 30px;
+$margin-h1-pantchica:0%;
+$margin-h3-pantchica:0%;
+$font-size-h3-pantchica: 15px;
+$font-size-p-pantchica: 10px;
 
 $font-family-h1: 'Calibri';
 $font-family-h3: 'Calibri';
@@ -25,7 +29,8 @@ $font-navbar: 'Calibri';
 $font-family-p: 'Calibri';
 $font-family-btn:'Calibri';
 
-
-
 $height-navbar-logo: 100px;
+
+
+
 

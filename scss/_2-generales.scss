@@ -26,6 +26,36 @@ h3{
     @extend .p-white;
     color: $color-fons-parrafos-negros;
 }
+@media only screen and (max-width: 400px){
+    h1{
+        color: $color-fonts-titulos;
+        font-family: $font-family-h1;
+        font-weight: bold;
+        text-align: center;
+        font-size: $font-size-h1-pantchica;
+        margin: $font-family-h1;
+    }
+    h3{
+    @extend h1;
+        font-family: $font-family-h3;
+        font-size: $font-size-h3-pantchica;
+        margin:$margin-h3-pantchica;
+    }
+    .p-white{
+        margin: 0;
+        font-weight:2;
+        text-align:justify;
+        font-size: $font-size-p-pantchica;
+        color: $color-fonts-parrafos-blancos;
+    }
+    .p-black{
+        @extend .p-white;
+        color: $color-fons-parrafos-negros;
+    }
+}
+
+
+
 .div-titulo{
     margin: 2%;
 }
@@ -39,6 +69,7 @@ h3{
     color: $color-fonts-parrafos-blancos; 
 }
 .input{
+    margin: 0;
     width: 100%;
     border-radius: $border-radius;
 }
@@ -47,8 +78,8 @@ h3{
     border-radius: $border-radius;
 }
 .button{
-    width: 30%;
-    font-size: 150%;
+    width: 20%;
+    font-size: 100%;
     font-weight:lighter;
     color: $color-btn;
     padding: 1%;
@@ -90,4 +121,9 @@ h3{
     &:hover {
         color: black;
     }
+}
+@media only screen and (max-width: 500px){
+    .link-cv{
+        font-size: 70%;
+}
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(255, 217, 0, 0.664);
+  background-color: rgba(255, 255, 0, 0.5);
 }
 
 h1, h3 {
@@ -29,6 +29,31 @@ h3 {
   color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 400px) {
+  h1, h3 {
+    color: rgb(76, 91, 122);
+    font-family: "Calibri";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: "Calibri";
+  }
+  h3 {
+    font-family: "Calibri";
+    font-size: 15px;
+    margin: 0%;
+  }
+  .p-white, .p-black {
+    margin: 0;
+    font-weight: 2;
+    text-align: justify;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+  }
+  .p-black {
+    color: rgb(0, 0, 0);
+  }
+}
 .div-titulo {
   margin: 2%;
 }
@@ -45,18 +70,19 @@ h3 {
 }
 
 .input {
+  margin: 0;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .textarea {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .button {
-  width: 30%;
-  font-size: 150%;
+  width: 20%;
+  font-size: 100%;
   font-weight: lighter;
   color: rgb(163, 163, 165);
   padding: 1%;
@@ -104,6 +130,11 @@ h3 {
   color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  .link-cv {
+    font-size: 70%;
+  }
+}
 .style-nav-bar {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
@@ -388,32 +419,47 @@ footer {
 }
 .img-fondo-formulario {
   height: 70%;
-  width: 80%;
-  margin: 5%;
-  padding: 10%;
-  padding-left: 15%;
-  background-image: url(../images/piping.png);
+  width: 100%;
+  padding: 2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/piping.png);
 }
 
+.div-form-general {
+  padding: 0%;
+  margin: 0%;
+}
+
+@media only screen and (min-width: 500px) {
+  .div-form-general {
+    margin-left: 10%;
+  }
+}
 .div-form-label {
   display: flex;
-  margin-top: 0.5%;
-  justify-content: end;
+  margin-top: 0%;
+  justify-content: start;
 }
 
 .div-form-input {
   display: flex;
-  margin-top: 0.5%;
+  margin-top: 0%;
 }
 
 .div-form-input-msj {
   display: flex;
-  margin-top: 0.5%;
+  margin-top: 0%;
 }
 
 .div-button-enviar {
   display: flex;
   justify-content: end;
+  padding: 2%;
+}
+
+.maps {
+  width: 100%;
+  height: 100%;
+  border: 0;
   padding: 2%;
 }
 
@@ -424,7 +470,7 @@ footer {
 
 .div-form-label-rrhh {
   display: flex;
-  margin-top: 0.5%;
+  margin-top: 0%;
   justify-content: start;
 }
 
@@ -436,7 +482,7 @@ footer {
 
 .div-form-input {
   display: flex;
-  margin-top: 0.5%;
+  margin-top: 0%;
   justify-content: center;
 }
 
